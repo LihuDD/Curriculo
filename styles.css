@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shantell+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@100&display=swap');
+/**{ outline: 1px solid red;}*/
+
+*,
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  size: auto;
+}
+
+body{
+  background-color: rgb(214, 214, 214);
+}
+
+ul{
+ list-style: none;
+}
+
+.cuerpo{
+  padding-top: 22rem;
+}
+
+main{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  filter: drop-shadow(0 0 0.5rem black);
+  text-align: center;
+  size: auto;
+}
+
+.right{
+  background-size: 100%;
+}
+
+.left{
+  background-color: rgb(16, 48, 116);
+  background-size: 100%;
+}
+
+.font1 h1{
+  font-family: 'Gloock', serif;  
+}
+
+.left h1{
+  color: white;
+  font-size: 30px;  
+  padding: 1rem;
+  padding-bottom: 0rem;
+  text-align: justify;
+}
+
+.left h2{
+  color: white;
+  font-size: 15px; 
+  padding: 1rem;
+  text-align: justify;
+}
+
+.perfil h1 {
+  color: white;
+  font-size: 22px;
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  height: 3rem;
+  text-align: justify;
+  background-color: #001b4d; 
+}
+
+.perfil ul{
+  color: white;
+  text-align: justify;
+  padding: 1rem;
+}
+
+a{
+  color: white;
+}
+
+.presentacion{
+  background-color:rgb(16, 48, 116);
+  color: white;
+  font-size: 17px;
+  text-align: justify;
+  padding: 1.5rem;
+  padding-left: 10%;
+}
+
+.presentacion .aportes{
+  font-weight: bold;
+  color: rgb(0, 215, 253);
+}
+
+.text-center{
+  text-align: center;
+}
+
+img{
+  width: 232px;
+  height: 210px;
+  float: center;
+  padding: 0 1rem;
+}
+
+.left-imag{
+  position: absolute;  
+}
+
+.left-imag img{
+  width: 100%;
+}
+
+.pf-1{
+  text-align: left;
+  margin: 0px 20px;
+}
+
+.titulos1 {
+  color:rgb(16, 48, 116);
+  background-color:rgba(255, 255, 255, 0.842);
+  background-size: 100%;
+  font-family:Arial,Helvetica,sans-serif;;
+  font-size: 16px;
+  line-height: 2;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: justify;
+}
+
+.titulos1 h1{
+  background-color: #001b4d21;
+}
+.titulos1 h2{
+  color:black;
+}
+
+.titulos1 p{
+  color:rgb(16, 48, 116);
+}
+
+.texto-centro{
+  font-family:Arial,Helvetica,sans-serif;;
+  font-size: 16px;
+  color: black;
+}
+
+.certificado-color{
+  color: #d8d53a;
+}
+
+footer{
+  background-color:rgb(16, 48, 116);
+  padding: 1rem;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}

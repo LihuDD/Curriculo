@@ -1,0 +1,21 @@
+button{
+    padding: 7px;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(163, 229, 245);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pf-btn{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1rem;
+    filter: drop-shadow(0 0 0.5rem black);
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    size: auto;
+  }
