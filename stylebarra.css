@@ -43,27 +43,3 @@
   line-height: 1.7;
   color: #000000;
 }
-
-/**.skill-per::before{
-  content: attr(per);
-  position: absolute;
-  padding: 4px 6px;
-  background: #f1f1f1;
-  border-radius: 4px;
-  font-size: 12px;
-  top: -45px;
-  right: -3rem;
-  transform: translateX(50%);
-}*/
-
-/**.skill-per::after{
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: #30ca1c34;
-  top: -20px;
-  right: 0;
-  transform: translateX(50%) rotate(45deg);
-  border-radius: 2px;
-}*/
